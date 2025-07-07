@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Productivity Predictor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f0f4f8; }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <nav class="bg-gradient-to-r from-blue-600 to-blue-800 p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="/" class="text-white text-2xl font-bold rounded-md hover:text-blue-200 transition duration-300">
+                Productivity Predictor
+            </a>
+            <div class="space-x-6">
+                <a href="/" class="text-white text-lg font-medium hover:text-blue-200 transition duration-300">Home</a>
+                <a href="/predict_page" class="bg-white text-blue-700 px-5 py-2 rounded-full font-semibold shadow-md hover:bg-blue-100 transition duration-300 transform hover:scale-105">
+                    Predict Now
+                </a>
+                <a href="/about" class="text-white text-lg font-medium hover:text-blue-200 transition duration-300">About</a>
+            </div>
+        </div>
+    </nav>
+    <main class="flex-grow flex items-center justify-center p-6">
+        <div class="bg-white p-10 rounded-xl shadow-2xl max-w-3xl w-full">
+            <h1 class="text-4xl font-extrabold text-gray-900 mb-6 text-center">About This Project</h1>
+            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                This project implements a Machine Learning Model for Employee Performance Prediction, designed to analyze workplace data and forecast employee productivity.            </p>
+            <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                By incorporating factors such as department, team assignment, working hours, incentives, task type, experience, day of the week, and idle time, the model aims to deliver insights that help organizations:            </p>
+            <ul class="list-disc list-inside text-lg text-gray-700 mb-6 space-y-2">
+                <li><span class="font-semibold text-blue-700">Resource Allocation:</span> Optimizing the matching of teams with tasks and managing worker distribution.</li>
+                <li><span class="font-semibold text-blue-700">Performance Improvement:</span> Identifying factors that impact productivity to implement targeted improvements.</li>
+                <li><span class="font-semibold text-blue-700">Operational Planning:</span> Forecasting productivity for better scheduling and goal setting.</li>
+            </ul>
+            <p class="text-lg text-gray-700 leading-relaxed">
+                Our goal is to provide managers with intelligent, data-driven tools to support a more efficient, motivated, and high-performing workforce.
+
+            </p>
+        </div>
+    </main>
+    <footer class="bg-gray-800 text-white p-4 text-center text-sm">
+        <div class="container mx-auto">
+            &copy; 2025 Garment Productivity Predictor. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
